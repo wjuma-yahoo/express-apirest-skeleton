@@ -1,3 +1,13 @@
 
 ### Get usuarios
 GET http://localhost:3000/api/v1/usuarios
+
+### Crear usuario
+POST http://localhost:3000/api/v1/usuarios
+Content-Type: application/json
+
+{
+  "username": "user01",
+  "email": "user01@gmail.com",
+  "password": "user123456"
+}
